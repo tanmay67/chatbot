@@ -44,11 +44,14 @@
 
 ### Requirements Covered:
 
+---
+
 <br>
-Used ReactJS instead of NextJS (which is a must to learn if you about to use NextJS)
-The application is accessable via Netlify
-Instructions to run the App are here on the main page, as well as in README file
-The app should handle chat with real-time streaming (similar to ChatGPT / ChatNBX) globe_with_meridianssatellite
+
+- Used ReactJS instead of NextJS (which is a must to learn if you about to use NextJS)React JS
+- The application is accessable via Netlify
+- Instructions to run the App are here on the main page, as well as in README file
+- The app should handle chat with real-time streaming (similar to ChatGPT / ChatNBX) globe_with_meridianssatellite
 
 <br>
 
