@@ -33,11 +33,13 @@
 ---
 
 <br>
+
 - React JS
 - CSS
 - Redux
 - react-icons
 - react-speech-kit
+
 <br>
 
 ### Requirements Covered:
