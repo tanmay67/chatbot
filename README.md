@@ -78,7 +78,10 @@
 
 ### Points to keep in mind
 
-<br/>
-Haven't changes the fonts, focused more on functionality as well as responsiveness
-There is no need to implement Redux in this app, as it is too small to implemenet redux
-Have implemented both in Redux as well as with State
+---
+
+<br>
+
+- Haven't changes the fonts, focused more on functionality as well as responsiveness
+- There is no need to implement Redux in this app, as it is too small to implemenet redux
+- Have implemented both in Redux as well as with State
