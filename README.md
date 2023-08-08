@@ -9,6 +9,10 @@
 1. ### Via Docker
 
 - Should have docker installed in your local
+- Make sure in your local PORT 8000 is not used by anywhere else
+- Go to command line and run "sudo docker-compose up --build"
+- Go to browser and run "localhost:8000"
+- Your application is not up and running
 
 <br>
 
