@@ -57,13 +57,22 @@
 
 ### Bonus Points Covered:
 
-<br>
-Haven't used anything except bare minimun ReactJS, not even a CSS Framework
-UI is responsive and works well on different screen sizes
+---
 
 <br>
-Ultra Bonus Points
-Implemented Redux for State Management
+
+- Haven't used anything except bare minimun ReactJS, not even a CSS Framework
+- UI is responsive and works well on different screen sizes
+
+<br>
+
+### Ultra Bonus Points
+
+---
+
+<br>
+
+- Implemented Redux for State Management
 
 <br/>
 
