@@ -38,7 +38,7 @@
 
 <br>
 
-#### Using "RapisAPI's Api of ChatGPT Api" not "OpenAI apis" as they are paid, and i used all my free credits
+#### Note: I am using "Rapid API's Api of ChatGPT Api" not "OpenAI apis" as they are paid, and i used all my free credits
 
 <br>
 
