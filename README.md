@@ -1,6 +1,19 @@
 # Welcome to ChatBot
 
 <br>
+ 
+### Site Link- https://chatbot-tanmay.netlify.app/
+
+Steps to fallow
+
+- Open app on the given link
+- You can read the main page, it has all the details of the website
+- Open right bottom icon of chatbot
+- There is a Text box where you can type anything
+- For demo you can type "Who is Narendra Mode?"
+- you will get response from the bot
+
+<br>
 
 ## Local Setup:
 
@@ -15,6 +28,8 @@
 - Wait till all the dependencies and steps are completed by docker-compose file
 - As soon as the above command is done executing, the application can be accessed on "localhost:8000"
 - Go to browser and run "localhost:8000"
+- For demo you can type "Who is Narendra Mode?"
+- you will get response from the bot
 
 2. ### Via Node
 
@@ -24,6 +39,8 @@
 - run: "npm install --legacy-peer-deps"
 - after the command is executed successfully run: "npm start"
 - As soon as the above command is done executing, the application can be accessed on "localhost:3000" (if 3000 is not used by any other server)
+- For demo you can type "Who is Narendra Mode?"
+- you will get response from the bot
 
 <br>
 
