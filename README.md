@@ -2,7 +2,17 @@
 
 <br>
 
-## At the bottom right corner you can see a chatbot icon
+## Local Setup:
+
+---
+
+1. Via Docker
+
+- Should have docker installed in your local
+
+<br>
+
+## At the bottom right corner you can see a chatbot icon:
 
 <img
             src="https://img.icons8.com/stickers/100/null/chatbot.png"
