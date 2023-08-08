@@ -2,7 +2,14 @@
 
 <br>
 
-## At the bottom right corner you can see a chatbot icon icon It will help you answer all your queries
+## At the bottom right corner you can see a chatbot icon
+
+<img
+            src="https://img.icons8.com/stickers/100/null/chatbot.png"
+            alt="icon"
+          />
+
+## It will help you answer all your queries
 
 <br>
 Points covered are:
