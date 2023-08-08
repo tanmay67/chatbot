@@ -6,7 +6,7 @@
 
 ---
 
-1. Via Docker
+1. ### Via Docker
 
 - Should have docker installed in your local
 
