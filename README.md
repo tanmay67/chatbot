@@ -8,11 +8,22 @@
 
 1. ### Via Docker
 
+- Clone the Repository
 - Should have docker installed in your local
 - Make sure in your local PORT 8000 is not used by anywhere else
 - Go to command line and run "sudo docker-compose up --build"
+- Wait till all the dependencies and steps are completed by docker-compose file
+- As soon as the above command is done executing, the application can be accessed on "localhost:8000"
 - Go to browser and run "localhost:8000"
-- Your application is not up and running
+
+2. ### Via Node
+
+- Clone the Repository
+- Check if node and npm are there in your local machine
+- Open the path in terminal where the file is saved in your local
+- run: "npm install --legacy-peer-deps"
+- after the command is executed successfully run: "npm start"
+- As soon as the above command is done executing, the application can be accessed on "localhost:3000" (if 3000 is not used by any other server)
 
 <br>
 
