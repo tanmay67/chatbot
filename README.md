@@ -15,14 +15,16 @@
 
 ### Points covered are:
 
+---
+
 <br>
-***
-* Create a Github repository
-* Implement a chat UI where users can send and receive messages in real-time (Use OpenAI APIs 🤖🔐)
-* The UI should have a list of chat messages, an input field to type messages, and a send button
-* Messages should be displayed with the conversation name, timestamp, and content datealarm_clockscroll
-* The data does not need to be persistent
-* The app should look beautiful
+
+- Create a Github repository
+- Implement a chat UI where users can send and receive messages in real-time (Use OpenAI APIs 🤖🔐)
+- The UI should have a list of chat messages, an input field to type messages, and a send button
+- Messages should be displayed with the conversation name, timestamp, and content datealarm_clockscroll
+- The data does not need to be persistent
+- The app should look beautiful
 
 <br>
 
