@@ -1,7 +1,9 @@
 # Welcome to ChatBot
 
 <br>
-At the bottom right corner you can see a chatbot icon icon It will help you answer all your queries
+
+## At the bottom right corner you can see a chatbot icon icon It will help you answer all your queries
+
 <br>
 Points covered are:
 <br>
