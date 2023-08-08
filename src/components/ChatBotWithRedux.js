@@ -65,11 +65,11 @@ const ChatBotWithRedux = () => {
         type: "text",
         message: textValue,
       };
-      apiCall(dataObj);
+      apiCall(dataObj.message);
     }
   };
 
-  const apiCall = async (dataObj) => {
+  const apiCall = async (message) => {
     // let formData = dataObj;
 
     // try {
@@ -97,13 +97,13 @@ const ChatBotWithRedux = () => {
     myHeaders.append("X-RapidAPI-Host", "chatgpt-api8.p.rapidapi.com");
     myHeaders.append(
       "X-RapidAPI-Key",
-      "c5f929b6d4msh646afb7625ead77p16e1a2jsn430bd23951d2"
+      "6bf92d2554mshd761d275cd70661p14bda7jsnbb5156f97918"
     );
     myHeaders.append("content-type", "application/json");
 
     var raw = JSON.stringify([
       {
-        content: "who is narender modi?",
+        content: message,
         role: "user",
       },
     ]);
@@ -118,26 +118,50 @@ const ChatBotWithRedux = () => {
     fetch("https://chatgpt-api8.p.rapidapi.com/", requestOptions)
       .then((response) => response.json())
       .then((result) => {
-        console.log("result", result.message);
-        let data = {
-          user: "1",
-          type: "text",
-          data: result.message.split(" ")[0],
-          date: Date()
-            .toLocaleString()
-            .replace("GMT+0530 (India Standard Time)", "")
-            .trim(),
-        };
-        dispatch(addToList(data));
+        if (result?.message) {
+          console.log("result", result.message);
+          let data = {
+            user: "1",
+            type: "text",
+            data: result.message.split(" ")[0],
+            date: Date()
+              .toLocaleString()
+              .replace("GMT+0530 (India Standard Time)", "")
+              .trim(),
+          };
+          dispatch(addToList(data));
 
-        let msg = result.message;
-        let strArr = msg.split(" ");
-        let str = "";
-        for (let i = 0; i <= strArr.length - 1; i++) {
-          setTimeout(() => {
-            str = str + " " + strArr[i];
-            dispatch(editLastMessage(str));
-          }, 200 * i);
+          let msg = result.message;
+          let strArr = msg.split(" ");
+          let str = "";
+          for (let i = 0; i <= strArr.length - 1; i++) {
+            setTimeout(() => {
+              str = str + " " + strArr[i];
+              dispatch(editLastMessage(str));
+            }, 200 * i);
+          }
+        } else {
+          console.log("result", result.text);
+          let data = {
+            user: "1",
+            type: "text",
+            data: result.text.split(" ")[0],
+            date: Date()
+              .toLocaleString()
+              .replace("GMT+0530 (India Standard Time)", "")
+              .trim(),
+          };
+          dispatch(addToList(data));
+
+          let msg = result.text;
+          let strArr = msg.split(" ");
+          let str = "";
+          for (let i = 0; i <= strArr.length - 1; i++) {
+            setTimeout(() => {
+              str = str + " " + strArr[i];
+              dispatch(editLastMessage(str));
+            }, 200 * i);
+          }
         }
       })
       .catch((error) => console.log("error", error))

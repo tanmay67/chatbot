@@ -20,7 +20,7 @@ const MainApp = () => {
         <li>Create a Github repository</li>
         <li>
           Implement a chat UI where users can send and receive messages in
-          real-time (Use OpenAI APIs 🤖🔐)
+          real-time (Using RapidAPI ChatGPT Api)
         </li>
         <li>
           The UI should have a list of chat messages, an input field to type

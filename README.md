@@ -38,6 +38,10 @@
 
 <br>
 
+#### Using "RapisAPI's Api of ChatGPT Api" not "OpenAI apis" as they are paid, and i used all my free credits
+
+<br>
+
 ### Points covered are:
 
 ---
@@ -45,7 +49,7 @@
 <br>
 
 - Create a Github repository
-- Implement a chat UI where users can send and receive messages in real-time (Use OpenAI APIs 🤖🔐)
+- Implement a chat UI where users can send and receive messages in real-time (Using RapidAPI ChatGPT Api)
 - The UI should have a list of chat messages, an input field to type messages, and a send button
 - Messages should be displayed with the conversation name, timestamp, and content datealarm_clockscroll
 - The data does not need to be persistent
@@ -110,3 +114,5 @@
 - Haven't changes the fonts, focused more on functionality as well as responsiveness
 - There is no need to implement Redux in this app, as it is too small to implemenet redux
 - Have implemented both in Redux as well as with State
+- Haven't implemented environment variables (Secret Key is static, as i am using free tier)
+- Using "RapisAPI's Api of ChatGPT Api" not "OpenAI apis" as they are paid, and i used all my free credits
