@@ -4,7 +4,7 @@ const initialState = {
   list: [
     {
       user: "1",
-      data: "text 1",
+      data: "Dummy Text 1",
       type: "text",
       date: Date()
         .toLocaleString()
@@ -13,7 +13,7 @@ const initialState = {
     },
     {
       user: "2",
-      data: "text 2",
+      data: "Dummy Text 2",
       type: "text",
       date: Date()
         .toLocaleString()
@@ -22,7 +22,7 @@ const initialState = {
     },
     {
       user: "1",
-      data: "text 1",
+      data: "Dummy Text 3",
       type: "text",
       date: Date()
         .toLocaleString()
@@ -31,7 +31,7 @@ const initialState = {
     },
     {
       user: "2",
-      data: "text 2",
+      data: "Dummy Text 4",
       type: "text",
       date: Date()
         .toLocaleString()
@@ -40,7 +40,7 @@ const initialState = {
     },
     {
       user: "1",
-      data: "text 1",
+      data: "Dummy Text 5",
       type: "text",
       date: Date()
         .toLocaleString()
@@ -49,7 +49,7 @@ const initialState = {
     },
     {
       user: "2",
-      data: "text 2",
+      data: "Dummy Text 6",
       type: "text",
       date: Date()
         .toLocaleString()

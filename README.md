@@ -117,7 +117,7 @@ Steps to fallow
 ---
 
 <br>
-
+- ** There is play and pause button which enables us to convert voice to text, as soon as we click on it, we can speak something and it will be converted to voive, thenn we can click send button to send it to chatbot **
 - Implemented Redux for State Management
 
 <br/>
